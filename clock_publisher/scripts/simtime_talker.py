@@ -1,6 +1,7 @@
 import rospy
 from rosgraph_msgs.msg import Clock
 
+# Example from https://answers.ros.org/question/347657/best-way-of-publishing-to-clock-topic-type-rosgraph_msgsclock/
 def simtime_talker():
     pub1 = rospy.Publisher('clock',Clock, queue_size=10)
     rospy.init_node('talker', anonymous=True)

@@ -1,0 +1,4 @@
+# Settings apply across all Linux distros running on WSL 2
+[wsl2]
+networkingMode=bridged
+vmSwitch=WSL2
